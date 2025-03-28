@@ -6,6 +6,7 @@ pnpm add -g pm2
 pm2 --version
 
 cd ~/ai_annotator_tool
+
 pm2 start "pnpm run start" --name annotator-ai
 pm2 save
 pm2 startup
